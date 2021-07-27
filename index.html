@@ -14,9 +14,9 @@
             <h1>Rock al Bosque Festival</h1>
 
             <nav class="navegacion-principal">
-                <a href="#">Line Up</a>
-                <a href="#">Galería</a>
-                <a href="#">Boletos</a>
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
 
             </nav>
         </div>
@@ -111,11 +111,97 @@
         </div>
     </section>
 
-    <section class="galeria"> 
+    <section id="galeria" class="galeria contenedor"> 
         <h3>Galería</h3>
 
         <ul class="galeria-imagenes"></ul>
     </section>
+
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase 1 Día</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los Escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y Bebida
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>$100k</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="premium plan">
+                <p>Pase 2 Días</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los Escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y Bebida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Camisa del evento
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Acceso VIP
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>$180k</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Rock al Bosque Festival. Todos Los Derechos Reservados</p>
+    </footer>
 
     <script src="build/js/bundle.js"></script>
 

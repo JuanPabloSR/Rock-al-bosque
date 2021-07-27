@@ -52,6 +52,7 @@ function versionWebp() {
 
 function watchArchivos(){
     watch( paths.scss, css); // * = la carpeta actual   // ** = todos los archivos con esa extension
+    watch( paths.js, javascript);
 }
 exports.css = css;
 exports.minificarcss = minificarcss;

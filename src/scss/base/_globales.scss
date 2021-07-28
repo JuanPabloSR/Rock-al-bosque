@@ -10,9 +10,11 @@ body {
     font-family: $fuentePrincipal;
     font-size: 1.6rem;
 
-     
+    &.fijar-body {
+        overflow:visible;
+    }
 }
-
+ 
 p {
     font-size: 2rem;
     color: $negro;
